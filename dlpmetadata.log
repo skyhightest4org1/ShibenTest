@@ -1,0 +1,133 @@
+2025-08-08T03:44:41.756+0000 DlpMetadataApplication [main] [INFO] [] Starting DlpMetadataApplication on dlpmetadata-060c41551afb5cd20 with PID 3071128 (/shn/SHN/dlpmetadata-server/dlpmetadata-server/runtime/current/dlpmetadata-server.jar started by shn in /shn/SHN/dlpmetadata-server/dlpmetadata-server/runtime/current)
+2025-08-08T03:44:41.761+0000 DlpMetadataApplication [main] [INFO] [] The following profiles are active: prod
+2025-08-08T03:44:42.230+0000 Version [background-preinit] [INFO] [] HV000001: Hibernate Validator 5.3.6.Final
+2025-08-08T03:44:44.529+0000 log [main] [INFO] [] Logging initialized @5706ms to org.eclipse.jetty.util.log.Slf4jLog
+2025-08-08T03:44:44.715+0000 Server [main] [INFO] [] jetty-9.4.51.v20230217; built: 2023-02-17T08:19:37.309Z; git: b45c405e4544384de066f814ed42ae3dceacdd49; jvm 1.8.0_422-b05
+2025-08-08T03:44:44.785+0000 application [main] [INFO] [] Initializing Spring embedded WebApplicationContext
+2025-08-08T03:44:46.257+0000 session [main] [INFO] [] DefaultSessionIdManager workerName=node0
+2025-08-08T03:44:46.257+0000 session [main] [INFO] [] No SessionScavenger set, using defaults
+2025-08-08T03:44:46.259+0000 session [main] [INFO] [] node0 Scavenging every 660000ms
+2025-08-08T03:44:46.284+0000 ContextHandler [main] [INFO] [] Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@146dfe6{application,/dlpmetadata,[file:///shn/SHN/dlpmetadata-server/dlpmetadata-server/runtime/current/tmp/jetty-docbase.2130611782973321995.9000/],AVAILABLE}
+2025-08-08T03:44:46.285+0000 Server [main] [INFO] [] Started @7463ms
+2025-08-08T03:44:47.538+0000 IndicesManagementService [main] [INFO] [] Index 'channel-members' already exists
+2025-08-08T03:44:47.558+0000 IndicesManagementService [main] [INFO] [] Index 'usage-metering-stats' already exists
+2025-08-08T03:44:47.567+0000 IndicesManagementService [main] [INFO] [] Index 'csp-root-folders' already exists
+2025-08-08T03:44:47.576+0000 IndicesManagementService [main] [INFO] [] Index 'channels' already exists
+2025-08-08T03:44:47.585+0000 IndicesManagementService [main] [INFO] [] Index 'users' already exists
+2025-08-08T03:44:47.594+0000 IndicesManagementService [main] [INFO] [] Index 'structured-csp' already exists
+2025-08-08T03:44:48.182+0000 DiscoveryClient [main] [INFO] [] Initializing Eureka in region us-east-1
+2025-08-08T03:44:48.282+0000 DiscoveryJerseyProvider [main] [INFO] [] Using JSON encoding codec LegacyJacksonJson
+2025-08-08T03:44:48.283+0000 DiscoveryJerseyProvider [main] [INFO] [] Using JSON decoding codec LegacyJacksonJson
+2025-08-08T03:44:48.429+0000 DiscoveryJerseyProvider [main] [INFO] [] Using XML encoding codec XStreamXml
+2025-08-08T03:44:48.429+0000 DiscoveryJerseyProvider [main] [INFO] [] Using XML decoding codec XStreamXml
+2025-08-08T03:44:48.626+0000 ConfigClusterResolver [main] [INFO] [] Resolving eureka endpoints via configuration
+2025-08-08T03:44:48.655+0000 DiscoveryClient [main] [INFO] [] Disable delta property : false
+2025-08-08T03:44:48.655+0000 DiscoveryClient [main] [INFO] [] Single vip registry refresh property : null
+2025-08-08T03:44:48.655+0000 DiscoveryClient [main] [INFO] [] Force full registry fetch : false
+2025-08-08T03:44:48.655+0000 DiscoveryClient [main] [INFO] [] Application is null : false
+2025-08-08T03:44:48.655+0000 DiscoveryClient [main] [INFO] [] Registered Applications size is zero : true
+2025-08-08T03:44:48.655+0000 DiscoveryClient [main] [INFO] [] Application version is -1: true
+2025-08-08T03:44:48.655+0000 DiscoveryClient [main] [INFO] [] Getting all instance registry info from the eureka server
+2025-08-08T03:44:48.949+0000 DiscoveryClient [main] [INFO] [] The response status is 200
+2025-08-08T03:44:48.952+0000 DiscoveryClient [main] [INFO] [] Starting heartbeat executor: renew interval is: 30
+2025-08-08T03:44:48.955+0000 InstanceInfoReplicator [main] [INFO] [] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-08-08T03:44:48.966+0000 DiscoveryClient [main] [INFO] [] Discovery Client initialized at timestamp 1754624688966 with initial instances count: 142
+2025-08-08T03:44:49.856+0000 URLConfigurationSource [main] [WARN] [] No URLs will be polled as dynamic configuration sources.
+2025-08-08T03:44:49.856+0000 URLConfigurationSource [main] [INFO] [] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-08-08T03:44:49.870+0000 URLConfigurationSource [main] [WARN] [] No URLs will be polled as dynamic configuration sources.
+2025-08-08T03:44:49.871+0000 URLConfigurationSource [main] [INFO] [] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-08-08T03:44:50.126+0000 Server [main] [INFO] [] jetty-9.4.51.v20230217; built: 2023-02-17T08:19:37.309Z; git: b45c405e4544384de066f814ed42ae3dceacdd49; jvm 1.8.0_422-b05
+2025-08-08T03:44:50.129+0000 application [main] [INFO] [] Initializing Spring embedded WebApplicationContext
+2025-08-08T03:44:50.131+0000 session [main] [INFO] [] DefaultSessionIdManager workerName=node0
+2025-08-08T03:44:50.132+0000 session [main] [INFO] [] No SessionScavenger set, using defaults
+2025-08-08T03:44:50.132+0000 session [main] [INFO] [] node0 Scavenging every 660000ms
+2025-08-08T03:44:50.133+0000 ContextHandler [main] [INFO] [] Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@327c7bea{application,/,[file:///shn/SHN/dlpmetadata-server/dlpmetadata-server/runtime/current/tmp/jetty-docbase.9107569898450168675.9011/],AVAILABLE}
+2025-08-08T03:44:50.133+0000 Server [main] [INFO] [] Started @11311ms
+2025-08-08T03:44:50.283+0000 application [main] [INFO] [] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2025-08-08T03:44:50.342+0000 AbstractConnector [main] [INFO] [] Started ServerConnector@4a05d8ae{HTTP/1.1, (http/1.1)}{0.0.0.0:9011}
+2025-08-08T03:44:50.344+0000 DiscoveryClient [main] [INFO] [] Saw local status change event StatusChangeEvent [timestamp=1754624690344, current=UP, previous=STARTING]
+2025-08-08T03:44:50.345+0000 DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] [INFO] [] DiscoveryClient_DLPMETADATA-SERVER/dlpmetadata-060c41551afb5cd20.node.qat.consul:dlpmetadata-server:9000: registering service...
+2025-08-08T03:44:50.397+0000 DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] [INFO] [] DiscoveryClient_DLPMETADATA-SERVER/dlpmetadata-060c41551afb5cd20.node.qat.consul:dlpmetadata-server:9000 - registration status: 204
+2025-08-08T03:44:50.432+0000 application [main] [INFO] [] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2025-08-08T03:44:50.439+0000 AbstractConnector [main] [INFO] [] Started ServerConnector@909217e{HTTP/1.1, (http/1.1)}{0.0.0.0:9000}
+2025-08-08T03:44:50.448+0000 DlpMetadataApplication [main] [INFO] [] Started DlpMetadataApplication in 9.57 seconds (JVM running for 11.626)
+2025-08-08T03:49:48.657+0000 ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] [INFO] [] Resolving eureka endpoints via configuration
+2025-08-08T03:54:48.658+0000 ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] [INFO] [] Resolving eureka endpoints via configuration
+2025-08-08T03:59:48.658+0000 ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] [INFO] [] Resolving eureka endpoints via configuration
+2025-08-08T04:04:48.659+0000 ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] [INFO] [] Resolving eureka endpoints via configuration
+2025-08-08T04:09:48.660+0000 ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] [INFO] [] Resolving eureka endpoints via configuration
+2025-08-08T04:14:48.660+0000 ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] [INFO] [] Resolving eureka endpoints via configuration
+2025-08-08T04:19:48.661+0000 ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] [INFO] [] Resolving eureka endpoints via configuration
+2025-08-08T04:24:48.662+0000 ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] [INFO] [] Resolving eureka endpoints via configuration
+2025-08-08T04:29:48.662+0000 ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] [INFO] [] Resolving eureka endpoints via configuration
+2025-08-08T04:34:48.663+0000 ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] [INFO] [] Resolving eureka endpoints via configuration
+2025-08-08T04:39:48.664+0000 ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] [INFO] [] Resolving eureka endpoints via configuration
+2025-08-08T04:44:48.665+0000 ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] [INFO] [] Resolving eureka endpoints via configuration
+2025-08-08T04:48:54.964+0000 DiscoveryClient [Thread-20] [WARN] [] Saw local status change event StatusChangeEvent [timestamp=1754628534964, current=DOWN, previous=UP]
+2025-08-08T04:48:54.965+0000 DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] [INFO] [] DiscoveryClient_DLPMETADATA-SERVER/dlpmetadata-060c41551afb5cd20.node.qat.consul:dlpmetadata-server:9000: registering service...
+2025-08-08T04:48:54.965+0000 DiscoveryClient [Thread-20] [INFO] [] Shutting down DiscoveryClient ...
+2025-08-08T04:48:54.970+0000 DiscoveryClient [Thread-20] [INFO] [] Unregistering ...
+2025-08-08T04:48:54.976+0000 DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] [INFO] [] DiscoveryClient_DLPMETADATA-SERVER/dlpmetadata-060c41551afb5cd20.node.qat.consul:dlpmetadata-server:9000 - registration status: 204
+2025-08-08T04:48:54.981+0000 DiscoveryClient [Thread-20] [INFO] [] DiscoveryClient_DLPMETADATA-SERVER/dlpmetadata-060c41551afb5cd20.node.qat.consul:dlpmetadata-server:9000 - deregister  status: 200
+2025-08-08T04:48:54.984+0000 DiscoveryClient [Thread-20] [INFO] [] Completed shut down of DiscoveryClient
+2025-08-08T04:48:55.000+0000 AbstractConnector [Thread-20] [INFO] [] Stopped ServerConnector@4a05d8ae{HTTP/1.1, (http/1.1)}{0.0.0.0:9011}
+2025-08-08T04:48:55.000+0000 session [Thread-20] [INFO] [] node0 Stopped scavenging
+2025-08-08T04:48:55.001+0000 application [Thread-20] [INFO] [] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-08-08T04:48:55.002+0000 ContextHandler [Thread-20] [INFO] [] Stopped o.s.b.c.e.j.JettyEmbeddedWebAppContext@327c7bea{application,/,[file:///shn/SHN/dlpmetadata-server/dlpmetadata-server/runtime/current/tmp/jetty-docbase.9107569898450168675.9011/],STOPPED}
+2025-08-08T04:48:55.018+0000 AbstractConnector [Thread-20] [INFO] [] Stopped ServerConnector@909217e{HTTP/1.1, (http/1.1)}{0.0.0.0:9000}
+2025-08-08T04:48:55.018+0000 session [Thread-20] [INFO] [] node0 Stopped scavenging
+2025-08-08T04:48:55.022+0000 application [Thread-20] [INFO] [] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-08-08T04:48:55.022+0000 ContextHandler [Thread-20] [INFO] [] Stopped o.s.b.c.e.j.JettyEmbeddedWebAppContext@146dfe6{application,/dlpmetadata,[file:///shn/SHN/dlpmetadata-server/dlpmetadata-server/runtime/current/tmp/jetty-docbase.2130611782973321995.9000/],STOPPED}
+2025-08-08T04:48:59.109+0000 DlpMetadataApplication [main] [INFO] [] Starting DlpMetadataApplication on dlpmetadata-060c41551afb5cd20 with PID 3213298 (/shn/SHN/dlpmetadata-server/dlpmetadata-server/runtime/current/dlpmetadata-server.jar started by shn in /shn/SHN/dlpmetadata-server/dlpmetadata-server/runtime/current)
+2025-08-08T04:48:59.113+0000 DlpMetadataApplication [main] [INFO] [] The following profiles are active: prod
+2025-08-08T04:48:59.513+0000 Version [background-preinit] [INFO] [] HV000001: Hibernate Validator 5.3.6.Final
+2025-08-08T04:49:01.927+0000 log [main] [INFO] [] Logging initialized @5751ms to org.eclipse.jetty.util.log.Slf4jLog
+2025-08-08T04:49:02.105+0000 Server [main] [INFO] [] jetty-9.4.51.v20230217; built: 2023-02-17T08:19:37.309Z; git: b45c405e4544384de066f814ed42ae3dceacdd49; jvm 1.8.0_422-b05
+2025-08-08T04:49:02.179+0000 application [main] [INFO] [] Initializing Spring embedded WebApplicationContext
+2025-08-08T04:49:03.656+0000 session [main] [INFO] [] DefaultSessionIdManager workerName=node0
+2025-08-08T04:49:03.656+0000 session [main] [INFO] [] No SessionScavenger set, using defaults
+2025-08-08T04:49:03.658+0000 session [main] [INFO] [] node0 Scavenging every 600000ms
+2025-08-08T04:49:03.676+0000 ContextHandler [main] [INFO] [] Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@146dfe6{application,/dlpmetadata,[file:///shn/SHN/dlpmetadata-server/dlpmetadata-server/runtime/current/tmp/jetty-docbase.4523980249129216798.9000/],AVAILABLE}
+2025-08-08T04:49:03.677+0000 Server [main] [INFO] [] Started @7501ms
+2025-08-08T04:49:04.839+0000 IndicesManagementService [main] [INFO] [] Index 'channel-members' already exists
+2025-08-08T04:49:04.850+0000 IndicesManagementService [main] [INFO] [] Index 'usage-metering-stats' already exists
+2025-08-08T04:49:04.863+0000 IndicesManagementService [main] [INFO] [] Index 'csp-root-folders' already exists
+2025-08-08T04:49:04.876+0000 IndicesManagementService [main] [INFO] [] Index 'channels' already exists
+2025-08-08T04:49:04.885+0000 IndicesManagementService [main] [INFO] [] Index 'users' already exists
+2025-08-08T04:49:04.896+0000 IndicesManagementService [main] [INFO] [] Index 'structured-csp' already exists
+2025-08-08T04:49:05.367+0000 DiscoveryClient [main] [INFO] [] Initializing Eureka in region us-east-1
+2025-08-08T04:49:05.448+0000 DiscoveryJerseyProvider [main] [INFO] [] Using JSON encoding codec LegacyJacksonJson
+2025-08-08T04:49:05.448+0000 DiscoveryJerseyProvider [main] [INFO] [] Using JSON decoding codec LegacyJacksonJson
+2025-08-08T04:49:05.575+0000 DiscoveryJerseyProvider [main] [INFO] [] Using XML encoding codec XStreamXml
+2025-08-08T04:49:05.575+0000 DiscoveryJerseyProvider [main] [INFO] [] Using XML decoding codec XStreamXml
+2025-08-08T04:49:05.804+0000 ConfigClusterResolver [main] [INFO] [] Resolving eureka endpoints via configuration
+2025-08-08T04:49:05.831+0000 DiscoveryClient [main] [INFO] [] Disable delta property : false
+2025-08-08T04:49:05.832+0000 DiscoveryClient [main] [INFO] [] Single vip registry refresh property : null
+2025-08-08T04:49:05.832+0000 DiscoveryClient [main] [INFO] [] Force full registry fetch : false
+2025-08-08T04:49:05.832+0000 DiscoveryClient [main] [INFO] [] Application is null : false
+2025-08-08T04:49:05.832+0000 DiscoveryClient [main] [INFO] [] Registered Applications size is zero : true
+2025-08-08T04:49:05.832+0000 DiscoveryClient [main] [INFO] [] Application version is -1: true
+2025-08-08T04:49:05.832+0000 DiscoveryClient [main] [INFO] [] Getting all instance registry info from the eureka server
+2025-08-08T04:49:06.145+0000 DiscoveryClient [main] [INFO] [] The response status is 200
+2025-08-08T04:49:06.151+0000 DiscoveryClient [main] [INFO] [] Starting heartbeat executor: renew interval is: 30
+2025-08-08T04:49:06.154+0000 InstanceInfoReplicator [main] [INFO] [] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-08-08T04:49:06.156+0000 DiscoveryClient [main] [INFO] [] Discovery Client initialized at timestamp 1754628546156 with initial instances count: 181
+2025-08-08T04:49:07.024+0000 URLConfigurationSource [main] [WARN] [] No URLs will be polled as dynamic configuration sources.
+2025-08-08T04:49:07.024+0000 URLConfigurationSource [main] [INFO] [] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-08-08T04:49:07.036+0000 URLConfigurationSource [main] [WARN] [] No URLs will be polled as dynamic configuration sources.
+2025-08-08T04:49:07.036+0000 URLConfigurationSource [main] [INFO] [] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2025-08-08T04:49:07.272+0000 Server [main] [INFO] [] jetty-9.4.51.v20230217; built: 2023-02-17T08:19:37.309Z; git: b45c405e4544384de066f814ed42ae3dceacdd49; jvm 1.8.0_422-b05
+2025-08-08T04:49:07.302+0000 application [main] [INFO] [] Initializing Spring embedded WebApplicationContext
+2025-08-08T04:49:07.304+0000 session [main] [INFO] [] DefaultSessionIdManager workerName=node0
+2025-08-08T04:49:07.304+0000 session [main] [INFO] [] No SessionScavenger set, using defaults
+2025-08-08T04:49:07.304+0000 session [main] [INFO] [] node0 Scavenging every 660000ms
+2025-08-08T04:49:07.305+0000 ContextHandler [main] [INFO] [] Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@327c7bea{application,/,[file:///shn/SHN/dlpmetadata-server/dlpmetadata-server/runtime/current/tmp/jetty-docbase.2316406994675262458.9011/],AVAILABLE}
+2025-08-08T04:49:07.305+0000 Server [main] [INFO] [] Started @11130ms
+2025-08-08T04:49:07.455+0000 application [main] [INFO] [] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2025-08-08T04:49:07.516+0000 AbstractConnector [main] [INFO] [] Started ServerConnector@4a05d8ae{HTTP/1.1, (http/1.1)}{0.0.0.0:9011}
+2025-08-08T04:49:07.518+0000 DiscoveryClient [main] [INFO] [] Saw local status change event StatusChangeEvent [timestamp=1754628547518, current=UP, previous=STARTING]
+2025-08-08T04:49:07.523+0000 DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] [INFO] [] DiscoveryClient_DLPMETADATA-SERVER/dlpmetadata-060c41551afb5cd20.node.qat.consul:dlpmetadata-server:9000: registering service...
+2025-08-08T04:49:07.580+0000 DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] [INFO] [] DiscoveryClient_DLPMETADATA-SERVER/dlpmetadata-060c41551afb5cd20.node.qat.consul:dlpmetadata-server:9000 - registration status: 204
+2025-08-08T04:49:07.616+0000 application [main] [INFO] [] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2025-08-08T04:49:07.625+0000 AbstractConnector [main] [INFO] [] Started ServerConnector@909217e{HTTP/1.1, (http/1.1)}{0.0.0.0:9000}
+2025-08-08T04:49:07.637+0000 DlpMetadataApplication [main] [INFO] [] Started DlpMetadataApplication in 9.436 seconds (JVM running for 11.461)

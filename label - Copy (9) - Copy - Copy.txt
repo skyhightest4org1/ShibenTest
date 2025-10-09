@@ -1,0 +1,7 @@
+38390-Vara
+
+label is keyword
+keyword is label
+
+for box, not allowed with emoji
+for slack, coming as encrypted
