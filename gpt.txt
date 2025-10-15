@@ -1,0 +1,31 @@
+3) Any Code Going into Skybot project should have a review ticket and One of the Core review members(Neeraj, Bala, Naresh) should complete review for authorising checkins.
+
+4) Resource Files /Input to tests are not allowed to check in Unless they belong and are part of Libraries. If any Binary files needs to be checked in (skyhighdev repo doesnt not allow checkins) We need to Upload it artifactory and Download when ever required and Use them in Packaging pex and Pypi.
+
+5) Constants should be part of Separate Constants file which can be used across project and Import where ever required. This would be useful most of times if same Constants needs to be used in Tests No need to declare separate Ones in tests.
+
+6) If Writing a New Library based on new API Best Practise is to Have separate Classes for End point Trigger which Simply fetches data and return Body, And Having a Helper class which uses the response and Does  required processing and functionality.
+
+7) Update Requirements.txt when even new module is used at global level.
+
+8) Before writing a new keyword / Library/Utility, Please check if there are Already existing similar Code from Help or from PyCharm/Fisheye search or talk to Core Members / QA Leads who would know what is already present.
+
+9) Absolutely no HardCoding of environment details like IP/URL/User/Pass Should be getting from respective settings from Fabric. If No Choice i.e there is no entry in fabric setting, hard coded value can be from Environment.py where environment details are initialised.
+
+10) __main__ section which is usually used for testing the Library written should not Exist during checkin, And could create a __DemoLib__.py file which will not go thru review should be used under respective module for testing various libraries developed for cleaner code and Encourage writing Documentation with Examples. This will also help us to monitor sonar for the Quality of the Project effectively.
+
+11) Resource files if used in Library should always use relative path to that Library and use os.path.join for the path without using seperators ourself (Helps Avoid failures due to Directory structure dependency and OS independent library).
+
+12) Avoid running OS commands from the Libraries Unless there is no other way. For e.g Avoid running curl command inspite of have requests library in python.
+
+13) Use API's or REST as long as possible based calls for Communicating with the required Component. Avoid Using SSH , Mysql (unless no other way), Or Headless Browser like Mechanize to browse thru to get required information. Please talk to core members / Qa Leads or Ops to know if there are API/rest calls available for a module before writing a Library which can eventually result in not approved to checkin.
+
+14) Mandatory Documentation with E.g usage for a library (Helps in reusing Modules for new Person and Can help in Automation from Dev).
+
+15) Tests in ROBOT files should not contain for Loops, or If conditions which would make ROBOT files unreadable.
+
+16) ROBOT tests Should not have any initialization of Env variables.
+
+17) ROBOT tests should be more or less like a Plain english testcase with Some Variables (which serves as Validation for tests), But should not Abstract too much which will not allow anyone to Understand what testcase is actually doing.
+
+18) ROBOT testcases should Mandatorily have Tags which falls into SMOKE , P1, P2 , categories and Should have Feature Based Tags which helps in running testcase for a particular feature during regression and Bug fixes for dev (helps in More Usage/Contribution from dev).
