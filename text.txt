@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+label key work keyword gold silver label, confidential b ncdnjkdlsjnvhckdsldmnhwjqikosjcbdhwjkqpdsvfjdnkwql'sn ,dkl;knv,sdkwlsacn,sklmkn mlc d,w/mc lwdnvdkwldknvsklwdknv,dlkvjnskwpdkjvskojvbsdkv
+=======
 label key work keyword gold silver label, confidential b ncdnjkdlsjnvhckdsldmnhwjqikosjcbdhwjkqpdsvfjdnkwql'sn ,dkl;knv,sdkwlsacn,sklmkn mlc d,w/mc lwdnvdkwldknvsklwdknv,dlkvjnskwpdkjvskojvbsdkv
 
 
@@ -22,3 +25,4 @@ drm
             "__typename": "DlpScanInfo"
         }
     }
+>>>>>>> efced13fa04728b173b769b8f1a010f13b23e7b8
