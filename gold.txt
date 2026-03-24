@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 gold jgefrbedrvbgyuhn   gjyhn 
+=======
+silverly silvery gold jgefrbedrvbgyuhn   gjyhn delete
+>>>>>>> efced13fa04728b173b769b8f1a010f13b23e7b8
