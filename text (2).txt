@@ -1,0 +1,24 @@
+label key work keyword gold silver label, confidential b ncdnjkdlsjnvhckdsldmnhwjqikosjcbdhwjkqpdsvfjdnkwql'sn ,dkl;knv,sdkwlsacn,sklmkn mlc d,w/mc lwdnvdkwldknvsklwdknv,dlkvjnskwpdkjvskojvbsdkv
+
+
+box
+quarntine
+
+"performScanAction": {
+            "statusId": 0,
+            "scanId": 1097042,
+            "scanConfigId": 558810,
+            "startTime": "2025-10-20T07:12:37Z",
+            "__typename": "DlpScanInfo"
+        }
+
+drm
+
+    "performScanAction": {
+            "statusId": 0,
+            "scanId": 1097043,
+            "scanConfigId": 558810,
+            "startTime": "2025-10-20T07:23:38Z",
+            "__typename": "DlpScanInfo"
+        }
+    }
