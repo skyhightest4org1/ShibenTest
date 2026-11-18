@@ -124,7 +124,7 @@ simple-salesforce==0.73.0
 six==1.15.0
 snakebite-py3==3.0.5
 sortedcontainers==2.2.2
-soupsieve==1.9.5
+soupsieve==4.0
 thriftpy2==0.4.14
 timeout-decorator==0.4.1
 timestring==1.6.4
