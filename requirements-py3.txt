@@ -76,7 +76,7 @@ objectpath==0.6.1
 orjson==3.11.5
 packaging==20.4
 pandas==2.3.3
-paramiko==2.7.1
+paramiko==5.0.0
 pbr==5.4.4
 pdfminer==20191010
 pdfminer.six==20200402
