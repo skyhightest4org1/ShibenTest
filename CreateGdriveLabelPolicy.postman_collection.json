@@ -1,0 +1,442 @@
+{
+  "info": {
+    "_postman_id": "c3100e93-43ea-4f76-b8e8-b3cf547eb2ee",
+    "name": "CreateGdriveLabelPolicy",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "2410938"
+  },
+  "item": [
+    {
+      "name": "Gdrive shndlpapi Token",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [
+          {
+            "key": "X-SHN-Zeus-Group",
+            "value": "SPOP",
+            "type": "text"
+          },
+          {
+            "key": "Authorization",
+            "value": "Basic YWRtaW5Ac3BvcC5jb206YWRtaW4=",
+            "type": "text"
+          },
+          {
+            "key": "tokenhash",
+            "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ik4tbEMwbi05REFMcXdodUhZbkhRNjNHZUNYYyIsImtpZCI6Ik4tbEMwbi05REFMcXdodUhZbkhRNjNHZUNYYyJ9.eyJhdWQiOiJodHRwczovL3plbmdlbC1teS5zaGFyZXBvaW50LmNvbS8iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9lYTg1ZTg3ZC0xZjE2LTQ5NmQtOTRkYS1kZTE4MjI2ODdlMGUvIiwiaWF0IjoxNTU0ODA1MTMxLCJuYmYiOjE1NTQ4MDUxMzEsImV4cCI6MTU1NDgwOTAzMSwiYWlvIjoiNDJaZ1lGQ3NjakxYZjgzU21ESG40NXlURWszV0FBPT0iLCJhcHBfZGlzcGxheW5hbWUiOiJNY0FmZWUgU2t5aGlnaCBOZXR3b3JrcyBEZXZlbG9wbWVudCIsImFwcGlkIjoiNTA5ZjEyMjYtODAyZC00YmY4LWI1NjgtYWQ4M2U3OWZjZmFjIiwiYXBwaWRhY3IiOiIyIiwiaWRwIjoiaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvZWE4NWU4N2QtMWYxNi00OTZkLTk0ZGEtZGUxODIyNjg3ZTBlLyIsIm9pZCI6ImMwMTJmMWYxLTc2MjUtNDIyYy1iMjAyLWQyY2U3YjE3MTc2MCIsInJvbGVzIjpbIlVzZXIuUmVhZC5BbGwiLCJTaXRlcy5NYW5hZ2UuQWxsIiwiU2l0ZXMuRnVsbENvbnRyb2wuQWxsIl0sInNpZCI6IjE5N2M1YWQ3LWIwNzItNGEzOS1iMGFkLWJiOWI5YTViYmJlZiIsInN1YiI6ImMwMTJmMWYxLTc2MjUtNDIyYy1iMjAyLWQyY2U3YjE3MTc2MCIsInRpZCI6ImVhODVlODdkLTFmMTYtNDk2ZC05NGRhLWRlMTgyMjY4N2UwZSIsInV0aSI6IkU4eEtQc3JidjB5V0NMX3h5Q051QUEiLCJ2ZXIiOiIxLjAifQ.ip7yoy5eyCP8cmk36o57i6TBadyhjNT2wzdmJlJV4uC3WvoymHrQTwhDgUl66PgHhu4KT6MQHkLnbdZbertudBW25-CyNXVi-V7zpPs3FjqbYupcbXSg-U_dL92FYZVtPrXhSXKkgq_RbRSAOaYBufizgGRxcRNE9Rhi6JWi81MYBpPOv5hrlupKc7NL9P3-0pnx6pvnQuv5uNXdLwzPJ5iLaqTvIgY57v0H-nYtNtiXFzK5R0z2kF-ew2F6MlyhxxogZsZ0_udjIBdvDKp3xs_CMzXNlGBoMmOke74Ur5Ey38DguLhIt6rICje0n4A8m4Au4LgXEkvSgPrH8zA56g",
+            "type": "text",
+            "disabled": true
+          }
+        ],
+        "url": {
+          "raw": "https://dashboard.qaautoregression.int.shn.io/shndlpapi/v1/private/dlp/oauth?tid=5610&cspid=2586&instanceid=11825",
+          "protocol": "https",
+          "host": [
+            "dashboard",
+            "qaautoregression",
+            "int",
+            "shn",
+            "io"
+          ],
+          "path": [
+            "shndlpapi",
+            "v1",
+            "private",
+            "dlp",
+            "oauth"
+          ],
+          "query": [
+            {
+              "key": "tid",
+              "value": "5610"
+            },
+            {
+              "key": "cspid",
+              "value": "2586"
+            },
+            {
+              "key": "instanceid",
+              "value": "11825"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Save Policy Copy",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Basic YWRtaW5Ac3BvcC5jb206YWRtaW4="
+          },
+          {
+            "key": "X-SHN-Zeus-Group",
+            "value": "SPOP"
+          },
+          {
+            "key": "x-access-token",
+            "value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnROYW1lIjoic2t5aGlnaHNlY3VyaXR5X3NobjMiLCJ1c2VyX25hbWUiOiJzaGliZW4uc2huK2F1dG9AZ21haWwuY29tIiwic2NvcGUiOlsicmVhZCIsIndyaXRlIl0sInRlbmFudElEIjo5OTI3NywiZXhwIjoxNzc2OTMxMjU0LCJ1c2VyIjoic2hpYmVuLnNobithdXRvQGdtYWlsLmNvbSIsInVzZXJJZCI6MTQ1NzIzLCJqdGkiOiJhNjA0MzY2YS0wOTA5LTRkODEtYTJjZC02YjkzYjI4MTM2ODUiLCJlbWFpbCI6InNoaWJlbi5zaG4rYXV0b0BnbWFpbC5jb20iLCJjbGllbnRfaWQiOiJ0cnVzdGVkLWFwcCJ9.I-PtYBijBGb1355N8tVdYMONYLwWo_ZbaStGv4v0QgZgst8j37d6PW5i9ZrT4OiUYvdN88E0CHekjX9hxudppRvRJTlW4daAJyLH4-DjpeIcEwaZpr_p0zA3pVPc9L7SWgBPlqwrZ1NbR5uHvSbDQylOuM8m9RjQVs69gGdP6_moe4HBizS9R5r0bVM87Rg4L4S-1POueF-JmeLA-O_0ZhqNLPejI0_hK3WlLnLmjcEvPWU_Pw-k-_6uGhlke5cdLSq03JRLsjOx1uQsh3cACQWjyTIDMfBRFfHUvjRYyAR2n5OXn7qrMHMxOwqUEiGH1zKujQ4WEwsil1PzwDcd_g",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"id\": -1,\n  \"name\": \"GDrive_lbl_Apr_test16\",\n  \"description\": \"\",\n  \"active\": true,\n  \"readOnly\": false,\n  \"services\": [\n    {\n      \"tenant_id\": 99277,\n      \"csp_id\": 2483,\n      \"instance_id\": 29519\n    }\n  ],\n  \"classificationMode\": \"cloud\",\n  \"policy_type_id\": 0,\n  \"policy_type_name\": \"API\",\n  \"showClassificationMode\": false,\n  \"uceMode\": false,\n  \"content\": \"{\\\"rule\\\":{\\\"type\\\":\\\"group\\\",\\\"id\\\":-1,\\\"description\\\":\\\"\\\",\\\"rule\\\":{\\\"type\\\":\\\"identifier\\\",\\\"document_part\\\":\\\"ALL\\\",\\\"match_count\\\":1,\\\"is_match_count_unique\\\":true,\\\"perform_keyword_validation\\\":false,\\\"keyword_proximity\\\":200,\\\"identifier_type\\\":\\\"iban\\\",\\\"custom_keyword_criteria\\\":\\\"BUILT_IN_ONLY\\\",\\\"blacklisted_identifier_dictionary_spec\\\":{\\\"type\\\":\\\"memory\\\",\\\"terms\\\":[]},\\\"custom_keywords\\\":{\\\"type\\\":\\\"memory\\\",\\\"terms\\\":[]}},\\\"severity\\\":\\\"HIGH\\\",\\\"groupName\\\":\\\"Rule Group 1\\\"},\\\"policy_response_spec\\\":{\\\"severity_response_list\\\":[{\\\"severity\\\":\\\"ANY\\\",\\\"response\\\":\\\"INCIDENT\\\",\\\"response_payload\\\":null,\\\"workflow_payload\\\":null},{\\\"severity\\\":\\\"HIGH\\\",\\\"response\\\":\\\"APPLY_GDRIVE_CLASSIFICATION\\\",\\\"response_payload\\\":{\\\"parameters\\\":{\\\"gdrive_classification_instance\\\":\\\"29519:Default\\\",\\\"gdrive_classification_label\\\":\\\"{\\\\\\\"29519\\\\\\\":{\\\\\\\"labels\\\\\\\":[{\\\\\\\"fields\\\\\\\":[{\\\\\\\"id\\\\\\\":\\\\\\\"3E3CF8BA6D\\\\\\\",\\\\\\\"valueType\\\\\\\":\\\\\\\"integer\\\\\\\",\\\\\\\"value\\\\\\\":[\\\\\\\"900719925\\\\\\\"]}],\\\\\\\"id\\\\\\\":\\\\\\\"H4LB1yFcAlmRZmmPUHKMAsOQFDy6kdBTOpSRNNEbbFcb\\\\\\\"}]}}\\\"},\\\"workflow_payload\\\":null}}],\\\"user_filter\\\":null,\\\"content_rule_type\\\":\\\"MVISION_CLOUD\\\"}}\",\n  \"tenant_id\": 99277,\n  \"user_groups\": []\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://dashboard.qaautoregression.int.shn.io/neo/shndlpapi/v1/99277/policies",
+          "protocol": "https",
+          "host": [
+            "dashboard",
+            "qaautoregression",
+            "int",
+            "shn",
+            "io"
+          ],
+          "path": [
+            "neo",
+            "shndlpapi",
+            "v1",
+            "99277",
+            "policies"
+          ]
+        },
+        "description": "Generated from cURL: curl --location 'http://localhost:9004/shndlpapi/v1/122370/policies' \\\n--header 'Content-Type: application/json' \\\n--header 'Authorization: Basic YWRtaW5Ac3BvcC5jb206YWRtaW4=' \\\n--header 'X-SHN-Zeus-Group: SPOP' \\\n--data-raw '{\n    \"id\": -1,\n    \"name\": \"gdrive_label_Test\",\n    \"description\": \"\",\n    \"readOnly\": false,\n    \"services\": [\n        {\n            \"tenant_id\": 122370,\n            \"csp_id\": 2483,\n            \"instance_id\": 66759\n        }\n    ],\n    \"classificationMode\": \"cloud\",\n    \"policy_type_id\": 0,\n    \"policy_type_name\": \"API\",\n    \"content\": \"{\\\"rule\\\":{\\\"type\\\":\\\"and\\\",\\\"rules\\\":[{\\\"type\\\":\\\"group\\\",\\\"id\\\":-1,\\\"description\\\":\\\"\\\",\\\"rule\\\":{\\\"type\\\":\\\"gdrive_classification\\\",\\\"gdrive_classification_label\\\":{\\\"66759\\\":{\\\"labels\\\":[{\\\"fields\\\":[{\\\"id\\\":\\\"D28C25BB6F\\\",\\\"valueType\\\":\\\"user\\\",\\\"value\\\":\\\"Test@text.com\\\"},{\\\"id\\\":\\\"575E27F67D\\\",\\\"valueType\\\":\\\"dateString\\\",\\\"value\\\":\\\"2026-02-10\\\"},{\\\"id\\\":\\\"C26B6DFA3A\\\",\\\"valueType\\\":\\\"integer\\\",\\\"value\\\":\\\"38\\\"},{\\\"id\\\":\\\"9B5039E972\\\",\\\"valueType\\\":\\\"text\\\",\\\"value\\\":\\\"TestNote\\\"},{\\\"id\\\":\\\"E9F689C185\\\",\\\"valueType\\\":\\\"selection\\\",\\\"value\\\":\\\"4B019673D2\\\"}],\\\"id\\\":\\\"bcRSORkCevPk7gqcJC4qrXzeLozVnjqDokXRNNEbbFcb\\\"}]}}},\\\"severity\\\":\\\"HIGH\\\",\\\"groupName\\\":\\\"RuleGroup1\\\"},{\\\"type\\\":\\\"exceptions\\\",\\\"rules\\\":[{\\\"type\\\":\\\"exception\\\",\\\"id\\\":-1,\\\"description\\\":\\\"\\\",\\\"rule\\\":{\\\"type\\\":\\\"aip_classification\\\",\\\"classifier_instance_id\\\":2355,\\\"classifier_instance_name\\\":\\\"default\\\",\\\"label_id\\\":\\\"3806f5e9-fb0c-446c-8d32-68857a6adbb2\\\",\\\"sub_label_id\\\":\\\"\\\",\\\"label_name\\\":\\\"Low\\\",\\\"sub_label_name\\\":\\\"\\\"},\\\"groupName\\\":\\\"Exceptions\\\"}]}]},\\\"policy_response_spec\\\":{\\\"severity_response_list\\\":[{\\\"severity\\\":\\\"ANY\\\",\\\"response\\\":\\\"INCIDENT\\\",\\\"response_payload\\\":null,\\\"workflow_payload\\\":null},{\\\"severity\\\":\\\"HIGH\\\",\\\"response\\\":\\\"INCIDENT\\\",\\\"response_payload\\\":null,\\\"workflow_payload\\\":null},{\\\"severity\\\":\\\"HIGH\\\",\\\"response\\\":\\\"QUARANTINE\\\",\\\"response_payload\\\":{\\\"parameters\\\":{\\\"email_template\\\":\\\"None\\\",\\\"email_template_type\\\":\\\"None\\\"}},\\\"workflow_payload\\\":null},{\\\"severity\\\":\\\"HIGH\\\",\\\"response\\\":\\\"APPLY_GDRIVE_CLASSIFICATION\\\",\\\"response_payload\\\":{\\\"parameters\\\":{\\\"gdrive_classification_instance\\\":\\\"66759:GdriveLabel\\\",\\\"gdrive_classification_label\\\":\\\"{\\\\\\\"66759\\\\\\\":{\\\\\\\"labelModifications\\\\\\\":[{\\\\\\\"labelId\\\\\\\":\\\\\\\"bcRSORkCevPk7gqcJC4qrXzeLozVnjqDokXRNNEbbFcb\\\\\\\",\\\\\\\"removeLabel\\\\\\\":false}]}}}\\\"}},\\\"workflow_payload\\\":null}]},\\\"user_filter\\\":null,\\\"content_rule_type\\\":\\\"MVISION_CLOUD\\\"}\",\n    \"tenant_id\": 122370,\n    \"editor_id\": 168004,\n    \"editor_email\": \"testprovderqat@gmail.com\",\n    \"edit_time\": 1765962566000,\n    \"active\": true,\n    \"deleted\": false,\n    \"dlp_dictionaries\": [],\n    \"user_groups\": [],\n    \"linked_scans\": [],\n    \"linked_edlp_policies\": [],\n    \"system\": false,\n    \"cwpp_policy_metadata\": []\n}'\n"
+      },
+      "response": []
+    },
+    {
+      "name": "Save Policy QAT",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Basic YWRtaW5Ac3BvcC5jb206YWRtaW4="
+          },
+          {
+            "key": "X-SHN-Zeus-Group",
+            "value": "SPOP"
+          },
+          {
+            "key": "x-access-token",
+            "value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnROYW1lIjoic2t5aGlnaHNlY3VyaXR5X3NobjMiLCJ1c2VyX25hbWUiOiJzaGliZW4uc2huK2F1dG9AZ21haWwuY29tIiwic2NvcGUiOlsicmVhZCIsIndyaXRlIl0sInRlbmFudElEIjo5OTI3NywiZXhwIjoxNzc2OTMxMjU0LCJ1c2VyIjoic2hpYmVuLnNobithdXRvQGdtYWlsLmNvbSIsInVzZXJJZCI6MTQ1NzIzLCJqdGkiOiJhNjA0MzY2YS0wOTA5LTRkODEtYTJjZC02YjkzYjI4MTM2ODUiLCJlbWFpbCI6InNoaWJlbi5zaG4rYXV0b0BnbWFpbC5jb20iLCJjbGllbnRfaWQiOiJ0cnVzdGVkLWFwcCJ9.I-PtYBijBGb1355N8tVdYMONYLwWo_ZbaStGv4v0QgZgst8j37d6PW5i9ZrT4OiUYvdN88E0CHekjX9hxudppRvRJTlW4daAJyLH4-DjpeIcEwaZpr_p0zA3pVPc9L7SWgBPlqwrZ1NbR5uHvSbDQylOuM8m9RjQVs69gGdP6_moe4HBizS9R5r0bVM87Rg4L4S-1POueF-JmeLA-O_0ZhqNLPejI0_hK3WlLnLmjcEvPWU_Pw-k-_6uGhlke5cdLSq03JRLsjOx1uQsh3cACQWjyTIDMfBRFfHUvjRYyAR2n5OXn7qrMHMxOwqUEiGH1zKujQ4WEwsil1PzwDcd_g",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"id\": -1,\n  \"name\": \"GDrive_lbl_Apr_test16\",\n  \"description\": \"\",\n  \"active\": true,\n  \"readOnly\": false,\n  \"services\": [\n    {\n      \"tenant_id\": 99277,\n      \"csp_id\": 2483,\n      \"instance_id\": 29519\n    }\n  ],\n  \"classificationMode\": \"cloud\",\n  \"policy_type_id\": 0,\n  \"policy_type_name\": \"API\",\n  \"showClassificationMode\": false,\n  \"uceMode\": false,\n  \"content\": \"{\\\"rule\\\":{\\\"type\\\":\\\"group\\\",\\\"id\\\":-1,\\\"description\\\":\\\"\\\",\\\"rule\\\":{\\\"type\\\":\\\"identifier\\\",\\\"document_part\\\":\\\"ALL\\\",\\\"match_count\\\":1,\\\"is_match_count_unique\\\":true,\\\"perform_keyword_validation\\\":false,\\\"keyword_proximity\\\":200,\\\"identifier_type\\\":\\\"iban\\\",\\\"custom_keyword_criteria\\\":\\\"BUILT_IN_ONLY\\\",\\\"blacklisted_identifier_dictionary_spec\\\":{\\\"type\\\":\\\"memory\\\",\\\"terms\\\":[]},\\\"custom_keywords\\\":{\\\"type\\\":\\\"memory\\\",\\\"terms\\\":[]}},\\\"severity\\\":\\\"HIGH\\\",\\\"groupName\\\":\\\"Rule Group 1\\\"},\\\"policy_response_spec\\\":{\\\"severity_response_list\\\":[{\\\"severity\\\":\\\"ANY\\\",\\\"response\\\":\\\"INCIDENT\\\",\\\"response_payload\\\":null,\\\"workflow_payload\\\":null},{\\\"severity\\\":\\\"HIGH\\\",\\\"response\\\":\\\"APPLY_GDRIVE_CLASSIFICATION\\\",\\\"response_payload\\\":{\\\"parameters\\\":{\\\"gdrive_classification_instance\\\":\\\"29519:Default\\\",\\\"gdrive_classification_label\\\":\\\"{\\\\\\\"29519\\\\\\\":{\\\\\\\"labels\\\\\\\":[{\\\\\\\"fields\\\\\\\":[{\\\\\\\"id\\\\\\\":\\\\\\\"3E3CF8BA6D\\\\\\\",\\\\\\\"valueType\\\\\\\":\\\\\\\"integer\\\\\\\",\\\\\\\"value\\\\\\\":[\\\\\\\"900719925\\\\\\\"]}],\\\\\\\"id\\\\\\\":\\\\\\\"H4LB1yFcAlmRZmmPUHKMAsOQFDy6kdBTOpSRNNEbbFcb\\\\\\\"}]}}\\\"},\\\"workflow_payload\\\":null}}],\\\"user_filter\\\":null,\\\"content_rule_type\\\":\\\"MVISION_CLOUD\\\"}}\",\n  \"tenant_id\": 99277,\n  \"user_groups\": []\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://dashboard.qaautoregression.int.shn.io/neo/shndlpapi/v1/99277/policies",
+          "protocol": "https",
+          "host": [
+            "dashboard",
+            "qaautoregression",
+            "int",
+            "shn",
+            "io"
+          ],
+          "path": [
+            "neo",
+            "shndlpapi",
+            "v1",
+            "99277",
+            "policies"
+          ]
+        },
+        "description": "Generated from cURL: curl --location 'http://localhost:9004/shndlpapi/v1/122370/policies' \\\n--header 'Content-Type: application/json' \\\n--header 'Authorization: Basic YWRtaW5Ac3BvcC5jb206YWRtaW4=' \\\n--header 'X-SHN-Zeus-Group: SPOP' \\\n--data-raw '{\n    \"id\": -1,\n    \"name\": \"gdrive_label_Test\",\n    \"description\": \"\",\n    \"readOnly\": false,\n    \"services\": [\n        {\n            \"tenant_id\": 122370,\n            \"csp_id\": 2483,\n            \"instance_id\": 66759\n        }\n    ],\n    \"classificationMode\": \"cloud\",\n    \"policy_type_id\": 0,\n    \"policy_type_name\": \"API\",\n    \"content\": \"{\\\"rule\\\":{\\\"type\\\":\\\"and\\\",\\\"rules\\\":[{\\\"type\\\":\\\"group\\\",\\\"id\\\":-1,\\\"description\\\":\\\"\\\",\\\"rule\\\":{\\\"type\\\":\\\"gdrive_classification\\\",\\\"gdrive_classification_label\\\":{\\\"66759\\\":{\\\"labels\\\":[{\\\"fields\\\":[{\\\"id\\\":\\\"D28C25BB6F\\\",\\\"valueType\\\":\\\"user\\\",\\\"value\\\":\\\"Test@text.com\\\"},{\\\"id\\\":\\\"575E27F67D\\\",\\\"valueType\\\":\\\"dateString\\\",\\\"value\\\":\\\"2026-02-10\\\"},{\\\"id\\\":\\\"C26B6DFA3A\\\",\\\"valueType\\\":\\\"integer\\\",\\\"value\\\":\\\"38\\\"},{\\\"id\\\":\\\"9B5039E972\\\",\\\"valueType\\\":\\\"text\\\",\\\"value\\\":\\\"TestNote\\\"},{\\\"id\\\":\\\"E9F689C185\\\",\\\"valueType\\\":\\\"selection\\\",\\\"value\\\":\\\"4B019673D2\\\"}],\\\"id\\\":\\\"bcRSORkCevPk7gqcJC4qrXzeLozVnjqDokXRNNEbbFcb\\\"}]}}},\\\"severity\\\":\\\"HIGH\\\",\\\"groupName\\\":\\\"RuleGroup1\\\"},{\\\"type\\\":\\\"exceptions\\\",\\\"rules\\\":[{\\\"type\\\":\\\"exception\\\",\\\"id\\\":-1,\\\"description\\\":\\\"\\\",\\\"rule\\\":{\\\"type\\\":\\\"aip_classification\\\",\\\"classifier_instance_id\\\":2355,\\\"classifier_instance_name\\\":\\\"default\\\",\\\"label_id\\\":\\\"3806f5e9-fb0c-446c-8d32-68857a6adbb2\\\",\\\"sub_label_id\\\":\\\"\\\",\\\"label_name\\\":\\\"Low\\\",\\\"sub_label_name\\\":\\\"\\\"},\\\"groupName\\\":\\\"Exceptions\\\"}]}]},\\\"policy_response_spec\\\":{\\\"severity_response_list\\\":[{\\\"severity\\\":\\\"ANY\\\",\\\"response\\\":\\\"INCIDENT\\\",\\\"response_payload\\\":null,\\\"workflow_payload\\\":null},{\\\"severity\\\":\\\"HIGH\\\",\\\"response\\\":\\\"INCIDENT\\\",\\\"response_payload\\\":null,\\\"workflow_payload\\\":null},{\\\"severity\\\":\\\"HIGH\\\",\\\"response\\\":\\\"QUARANTINE\\\",\\\"response_payload\\\":{\\\"parameters\\\":{\\\"email_template\\\":\\\"None\\\",\\\"email_template_type\\\":\\\"None\\\"}},\\\"workflow_payload\\\":null},{\\\"severity\\\":\\\"HIGH\\\",\\\"response\\\":\\\"APPLY_GDRIVE_CLASSIFICATION\\\",\\\"response_payload\\\":{\\\"parameters\\\":{\\\"gdrive_classification_instance\\\":\\\"66759:GdriveLabel\\\",\\\"gdrive_classification_label\\\":\\\"{\\\\\\\"66759\\\\\\\":{\\\\\\\"labelModifications\\\\\\\":[{\\\\\\\"labelId\\\\\\\":\\\\\\\"bcRSORkCevPk7gqcJC4qrXzeLozVnjqDokXRNNEbbFcb\\\\\\\",\\\\\\\"removeLabel\\\\\\\":false}]}}}\\\"}},\\\"workflow_payload\\\":null}]},\\\"user_filter\\\":null,\\\"content_rule_type\\\":\\\"MVISION_CLOUD\\\"}\",\n    \"tenant_id\": 122370,\n    \"editor_id\": 168004,\n    \"editor_email\": \"testprovderqat@gmail.com\",\n    \"edit_time\": 1765962566000,\n    \"active\": true,\n    \"deleted\": false,\n    \"dlp_dictionaries\": [],\n    \"user_groups\": [],\n    \"linked_scans\": [],\n    \"linked_edlp_policies\": [],\n    \"system\": false,\n    \"cwpp_policy_metadata\": []\n}'\n"
+      },
+      "response": []
+    },
+    {
+      "name": "ListLabels Copy",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "ya29.a0AUMWg_JY3x783Qr_9w7E_lFLPotqFFCKDJkoEFj-p-J8JVYh4mMdK_ojCE4tkASI2jDIvmF8x06FyCTMtd-trU8Jf3179O_3GcutCNtxO7y6AFfs6hqXor9QlCTcVOXZAf6bqYGJ_wvPfquLbzsHJNvbyRZuG5-6N9Z3EhElxkPWxmqN6HCGPwlwHIJB1cGgIai4WwgaCgYKAbgSARISFQHGX2MiD3Pwa69cYz0xhdELLvJkBA0206",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer xxxxx"
+          }
+        ],
+        "url": {
+          "raw": "https://drivelabels.googleapis.com/v2/labels",
+          "protocol": "https",
+          "host": [
+            "drivelabels",
+            "googleapis",
+            "com"
+          ],
+          "path": [
+            "v2",
+            "labels"
+          ]
+        },
+        "description": "Generated from cURL: curl --location 'https://www.googleapis.com/drive/v3/files/13Tl7v7X55BWkVblPIhSUuNPCOYJai0kR/listLabels' \\\n--header 'Authorization: Bearer xxxxx'"
+      },
+      "response": []
+    },
+    {
+      "name": "LabelDetails Copy",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "ya29.a0AUMWg_JY3x783Qr_9w7E_lFLPotqFFCKDJkoEFj-p-J8JVYh4mMdK_ojCE4tkASI2jDIvmF8x06FyCTMtd-trU8Jf3179O_3GcutCNtxO7y6AFfs6hqXor9QlCTcVOXZAf6bqYGJ_wvPfquLbzsHJNvbyRZuG5-6N9Z3EhElxkPWxmqN6HCGPwlwHIJB1cGgIai4WwgaCgYKAbgSARISFQHGX2MiD3Pwa69cYz0xhdELLvJkBA0206",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer xxxxx"
+          }
+        ],
+        "url": {
+          "raw": "https://drivelabels.googleapis.com/v2/labels/9oUlJb3Qq3ssxL7dWCgtf9CEphbUk1TK5kVRNNEbbFcb?view=LABEL_VIEW_FULL",
+          "protocol": "https",
+          "host": [
+            "drivelabels",
+            "googleapis",
+            "com"
+          ],
+          "path": [
+            "v2",
+            "labels",
+            "9oUlJb3Qq3ssxL7dWCgtf9CEphbUk1TK5kVRNNEbbFcb"
+          ],
+          "query": [
+            {
+              "key": "view",
+              "value": "LABEL_VIEW_FULL"
+            }
+          ]
+        },
+        "description": "Generated from cURL: curl --location 'https://www.googleapis.com/drive/v3/files/13Tl7v7X55BWkVblPIhSUuNPCOYJai0kR/listLabels' \\\n--header 'Authorization: Bearer xxxxx'"
+      },
+      "response": []
+    },
+    {
+      "name": "Instances-labels",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "X-SHN-Zeus-Group",
+            "value": "SPOP"
+          },
+          {
+            "key": "Authorization",
+            "value": "Basic YWRtaW5Ac3BvcC5jb206YWRtaW4="
+          },
+          {
+            "key": "Cookie",
+            "value": "JSESSIONID=1oyfxtal9ance6zmtk7aiqvjo; JSESSIONID=node018dup3e839k981tdx2mqq53gll13116968.node0; JSESSIONID=node0qnrognjgi0ul1h62exemcrwkv29332.node0; JSESSIONID=node0uzkh8zqwmme6tyxadpcwzlx5708743.node0"
+          }
+        ],
+        "url": {
+          "raw": "https://dashboard.qaautoregression.int.shn.io/shndlpapi/v1/labels/gdrive/103170/instances-labels",
+          "protocol": "https",
+          "host": [
+            "dashboard",
+            "qaautoregression",
+            "int",
+            "shn",
+            "io"
+          ],
+          "path": [
+            "shndlpapi",
+            "v1",
+            "labels",
+            "gdrive",
+            "103170",
+            "instances-labels"
+          ]
+        },
+        "description": "Generated from cURL: curl --location 'https://dashboard.qaautoregression.int.shn.io/shndlpapi/v1/labels/gdrive/103170/instances-labels' \\\n--header 'X-SHN-Zeus-Group: SPOP' \\\n--header 'Authorization: Basic YWRtaW5Ac3BvcC5jb206YWRtaW4=' \\\n--header 'Cookie: JSESSIONID=1oyfxtal9ance6zmtk7aiqvjo; JSESSIONID=node018dup3e839k981tdx2mqq53gll13116968.node0; JSESSIONID=node0qnrognjgi0ul1h62exemcrwkv29332.node0; JSESSIONID=node0uzkh8zqwmme6tyxadpcwzlx5708743.node0'"
+      },
+      "response": []
+    },
+    {
+      "name": "label-details",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "X-SHN-Zeus-Group",
+            "value": "SPOP"
+          },
+          {
+            "key": "Authorization",
+            "value": "Basic YWRtaW5Ac3BvcC5jb206YWRtaW4="
+          },
+          {
+            "key": "Cookie",
+            "value": "JSESSIONID=1oyfxtal9ance6zmtk7aiqvjo; JSESSIONID=node018dup3e839k981tdx2mqq53gll13116968.node0; JSESSIONID=node0qnrognjgi0ul1h62exemcrwkv29332.node0; JSESSIONID=node01ap44glpuqrjs1rmle1ab0jknh628676.node0"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json; charset=UTF-8"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "https://dashboard.qaautoregression.int.shn.io/shndlpapi/v1/labels/gdrive/103170/34825/label-details?labelId=5CNjEZxONHxFh3gW0hXl5Z1QXNfa3HiPwtmSNNEbbFcb",
+          "protocol": "https",
+          "host": [
+            "dashboard",
+            "qaautoregression",
+            "int",
+            "shn",
+            "io"
+          ],
+          "path": [
+            "shndlpapi",
+            "v1",
+            "labels",
+            "gdrive",
+            "103170",
+            "34825",
+            "label-details"
+          ],
+          "query": [
+            {
+              "key": "labelId",
+              "value": "5CNjEZxONHxFh3gW0hXl5Z1QXNfa3HiPwtmSNNEbbFcb"
+            }
+          ]
+        },
+        "description": "Generated from cURL: curl --location 'https://dashboard.qaautoregression.int.shn.io/shndlpapi/v1/labels/gdrive/103170/34825/label-details?labelId=5CNjEZxONHxFh3gW0hXl5Z1QXNfa3HiPwtmSNNEbbFcb' \\\n--header 'X-SHN-Zeus-Group: SPOP' \\\n--header 'Authorization: Basic YWRtaW5Ac3BvcC5jb206YWRtaW4=' \\\n--header 'Cookie: JSESSIONID=1oyfxtal9ance6zmtk7aiqvjo; JSESSIONID=node018dup3e839k981tdx2mqq53gll13116968.node0; JSESSIONID=node0qnrognjgi0ul1h62exemcrwkv29332.node0; JSESSIONID=node01ap44glpuqrjs1rmle1ab0jknh628676.node0' \\\n--header 'Content-Type: application/json; charset=UTF-8' \\\n--header 'Accept: application/json'"
+      },
+      "response": []
+    },
+    {
+      "name": "labels-refresh",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "X-SHN-Zeus-Group",
+            "value": "SPOP"
+          },
+          {
+            "key": "Authorization",
+            "value": "Basic YWRtaW5Ac3BvcC5jb206YWRtaW4="
+          },
+          {
+            "key": "Cookie",
+            "value": "JSESSIONID=1oyfxtal9ance6zmtk7aiqvjo; JSESSIONID=node018dup3e839k981tdx2mqq53gll13116968.node0; JSESSIONID=node0qnrognjgi0ul1h62exemcrwkv29332.node0; JSESSIONID=node01ap44glpuqrjs1rmle1ab0jknh628676.node0"
+          }
+        ],
+        "url": {
+          "raw": "https://dashboard.qaautoregression.int.shn.io/shndlpapi/v1/labels/gdrive/103170/34825/labels/refresh",
+          "protocol": "https",
+          "host": [
+            "dashboard",
+            "qaautoregression",
+            "int",
+            "shn",
+            "io"
+          ],
+          "path": [
+            "shndlpapi",
+            "v1",
+            "labels",
+            "gdrive",
+            "103170",
+            "34825",
+            "labels",
+            "refresh"
+          ]
+        },
+        "description": "Generated from cURL: curl --location 'https://dashboard.qaautoregression.int.shn.io/shndlpapi/v1/labels/gdrive/103170/34825/labels/refresh' \\\n--header 'X-SHN-Zeus-Group: SPOP' \\\n--header 'Authorization: Basic YWRtaW5Ac3BvcC5jb206YWRtaW4=' \\\n--header 'Cookie: JSESSIONID=1oyfxtal9ance6zmtk7aiqvjo; JSESSIONID=node018dup3e839k981tdx2mqq53gll13116968.node0; JSESSIONID=node0qnrognjgi0ul1h62exemcrwkv29332.node0; JSESSIONID=node01ap44glpuqrjs1rmle1ab0jknh628676.node0'\n"
+      },
+      "response": []
+    },
+    {
+      "name": "labels-refresh Usprod",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "X-SHN-Zeus-Group",
+            "value": "SPOP"
+          },
+          {
+            "key": "Authorization",
+            "value": "Basic YWRtaW5Ac3BvcC5jb206YWRtaW4="
+          },
+          {
+            "key": "Cookie",
+            "value": "JSESSIONID=1oyfxtal9ance6zmtk7aiqvjo; JSESSIONID=node018dup3e839k981tdx2mqq53gll13116968.node0; JSESSIONID=node0qnrognjgi0ul1h62exemcrwkv29332.node0; JSESSIONID=node01ap44glpuqrjs1rmle1ab0jknh628676.node0"
+          }
+        ],
+        "url": {
+          "raw": "https://dashboard.qaautoregression.int.shn.io/shndlpapi/v1/labels/gdrive/103170/34825/labels/refresh",
+          "protocol": "https",
+          "host": [
+            "dashboard",
+            "qaautoregression",
+            "int",
+            "shn",
+            "io"
+          ],
+          "path": [
+            "shndlpapi",
+            "v1",
+            "labels",
+            "gdrive",
+            "103170",
+            "34825",
+            "labels",
+            "refresh"
+          ]
+        },
+        "description": "Generated from cURL: curl --location 'https://dashboard.qaautoregression.int.shn.io/shndlpapi/v1/labels/gdrive/103170/34825/labels/refresh' \\\n--header 'X-SHN-Zeus-Group: SPOP' \\\n--header 'Authorization: Basic YWRtaW5Ac3BvcC5jb206YWRtaW4=' \\\n--header 'Cookie: JSESSIONID=1oyfxtal9ance6zmtk7aiqvjo; JSESSIONID=node018dup3e839k981tdx2mqq53gll13116968.node0; JSESSIONID=node0qnrognjgi0ul1h62exemcrwkv29332.node0; JSESSIONID=node01ap44glpuqrjs1rmle1ab0jknh628676.node0'\n"
+      },
+      "response": []
+    }
+  ]
+}
