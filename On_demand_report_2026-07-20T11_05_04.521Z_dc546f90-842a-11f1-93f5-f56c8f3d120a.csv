@@ -1,0 +1,14 @@
+message,level,appname,fabric
+Completed fetching labels from CSP for tenantInstanceKey:103170:2483:34805 in 1265 ms,INFO,drm-service,qaar
+Fetching labels for tenantId: 103170 instanceId: 34805 instance: labelTest from Redis,INFO,drm-service,qaar
+No Labels found for GDrive tenantId: 103170 instanceId: 34805 instance: labelTest in Redis - Triggering Fallback(fetching from CSP),INFO,drm-service,qaar
+Completed DriveLabelSyncTask in FALLBACK mode for tenantInstanceKey: 103170:2483:34805 in 1265 ms,INFO,drm-service,qaar
+ , ,haproxy-drm-service,qat
+"<--- HTTP Unable to perform token refresh using shndlpapi {supportsTeamDrives=[true], supportsAllDrives=[true], prettyPrint=[false]} (1261ms)",WARN,drm-service,qaar
+Fetching GDrive labels from CSP for tenantInstanceKey:103170:2483:34805,INFO,drm-service,qaar
+"Loading new instance of Cloud Service from POP for Tenant instance TenantInstanceKey{tenantId=103170, cspId=2483, instanceId=34805, scopes=null, adminEmail=null, resourceUrl=null}",INFO,drm-service,qaar
+Found 0 labels for GDrive tenantId: 103170 instanceId: 34805 instanceName: labelTest,INFO,drm-service,qaar
+"FALLBACK mode failed for GDrive tenantId: 103170 instanceId: 34805 instance: TenantInstanceLabelDTO(instanceName=labelTest, tenantId=103170, cspId=2483, instanceId=34805, scopes=null, adminEmail=null, resourceUrl=null, labels=[])",ERROR,drm-service,qaar
+Failed to fetch labels from CSP for 103170:2483:34805,ERROR,drm-service,qaar
+Starting DriveLabelSyncTask in FALLBACK mode for tenantInstanceKey: 103170:2483:34805,INFO,drm-service,qaar
+DriveLabelSyncTask in FALLBACK mode failed for tenantInstanceKey: 103170:2483:34805,ERROR,drm-service,qaar

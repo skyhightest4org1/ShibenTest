@@ -1,0 +1,13 @@
+iban	My IBAN number is AD1200012030200359100100\	  :)	FALSE	1	TRUE
+iban	My IBAN number is AD1200012030200359100101\	 no its not :)	FALSE	1	FALSE
+iban	This document contains AD1200012030200359100100 AD1200012030200359100100 BE68539007547034	FALSE	2	TRUE	
+iban	This document contains AD1200012030200359100100 AD1200012030200359100100	FALSE	2	FALSE	
+iban	AD1200012030200359100100	 false	1	 true	
+iban	AD1200012030200359100100 test	 false	1	 true	
+iban	test AD1200012030200359100100	 false	1	 true	
+iban	testAD1200012030200359100100	 false	1	 false	
+iban	AD1200012030200359100100test	 false	1	 false	
+iban	This document contains ‚ÄòAD1200012030200359100100‚Äô 	 false	1	 true	
+iban	This document contains ‚ÄúAD1200012030200359100100‚Äù 	 false	1	 true	
+iban	This document contains ‚ÄôAD1200012030200359100100‚Äú 	 false	1	 true	
+iban	This document contains ‚ÄùAD1200012030200359100100‚Äò 	 false	1	 true	

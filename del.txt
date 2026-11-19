@@ -1,0 +1,6 @@
+ secloredrm
+
+
+1. login as user1 , create a folder f1, share it with user2, now login as user2 share f1 with user3
+2. now remove user2 from the org 
+3. login as user3 and upload file to above folder f1, share this event OS logs here
